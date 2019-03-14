@@ -1,0 +1,19 @@
+{
+  "name": "node-cpp-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javas.js",
+  "scripts": {
+    "compile": "node-gyp configure build",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.13.0",
+    "node-addon-api": "^1.6.2",
+    "node-gyp": "^3.8.0"
+  },
+  "gypfile": true
+}
