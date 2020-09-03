@@ -22,5 +22,4 @@
 NAN_MODULE_INIT(Initialize) {
     NAN_EXPORT(target, IsPrime);
 }
-
 NODE_MODULE(addon, Initialize);
